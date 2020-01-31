@@ -13,6 +13,7 @@ data:
   RABBITMQ_NODE_PORT: "5672"
   RABBITMQ_DIST_PORT: "25672"
   RABBITMQ_MEMORY: "4GB"
+  RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS: "+S 2:2"
 ---
 apiVersion: apps/v1
 kind: Deployment

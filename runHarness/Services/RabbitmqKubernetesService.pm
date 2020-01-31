@@ -127,9 +127,6 @@ sub configure {
 	
 	close FILEIN;
 	close FILEOUT;
-	
-		
-
 }
 
 override 'isUp' => sub {
